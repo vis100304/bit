@@ -51,9 +51,10 @@ const OutfitInspiration = () => {
     <View style={styles.container}>
       {/* Header Section */}
       <View style={styles.headerContainer}>
+        
         <Text style={styles.headerText}>Hey, Ravi!</Text>
         <TouchableOpacity style={styles.notificationIcon}>
-          {/* Notification icon can go here */}
+         
         </TouchableOpacity>
       </View>
 
@@ -112,6 +113,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginLeft: 10,
   },
+  
   notificationText: {
     color: '#fff',
     fontSize: 12,
@@ -144,7 +146,10 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 14,
     fontWeight: 'bold',
+    position:'relative',
+    
   },
+  
   scrollContainer: {
     padding: 20,
     backgroundColor: '#fff',
